@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="seo, google, site web, site internet, agence design paris, agence design, agence design,agence design,agence design,agence design,agence design,agence design,agence design,agence design">
+	<!--
+    <meta name="keywords" content="seo, google, site web, site internet, agence design paris, agence design, agence design,agence design,agence design,agence design,agence design,agence design,agence design,agence design">-->
     <meta name="description" content="Web design ,site internet , agence design à paris ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
@@ -13,11 +14,12 @@
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
     
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
+	<!-- <script src="./js/jquery-2.1.0.js"></script> -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous" defer></script>
+	<script src="./js/bootstrap.js" defer></script>
+	<script src="./js/blocs.js" defer></script>
 	<script src="./js/jquery.touchSwipe.js" defer></script>
-	<script src="./js/gmaps.js"></script>
+	<script src="./js/gmaps.js" defer></script>
 
     <title>Agence de Web design</title>
     
@@ -34,10 +36,13 @@
 			<div class="container bloc-sm">
 
 			<nav class="navbar row">
+				<!--
 			<div class="navbar-header">
-				<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
+				<div class="keywords" style="color: black; font-size: 15px;margin-bottom: 17px;">
+				Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>-->
+				
 				<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="paris web design logo agence web meilleure agence" height="40" /></a>
-				<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
+				<!-- <div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>-->
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -49,7 +54,7 @@
 					</li>
 
 					<li>
-						<a href="page2.html">page2 </a>
+						<a href="contact.html">Contact </a>
 					</li>
 				</ul>
 				</div>
@@ -81,9 +86,10 @@
 <div class="bloc bgc-white l-bloc" id="bloc-2-services">
 	<div class="container bloc-md">
 		<div class="row">
-			<div class="col-sm-12 text-center">
-				<img src="img/title.webp" alt="agence web, agence web paris, web design paris, stratégie web"/>
-			</div>
+			<section class="col-sm-12 text-center" style="font-size: 21px; margin-bottom: 4%;padding-left: 21%;padding-right: 21%;">
+			
+			L'agence La panthère est une agence de web design qui aide les entreprises à devenir attractives et visible sur internet.
+			</section>
 		</div>
 		<div class="row voffset-lg med-width-whitespace">
 			<div class="col-sm-4">
@@ -121,10 +127,14 @@
 			</div>
 		</div>
 		<div class="row voffset-lg voffset">
-			<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-				<img alt="agence web, agence web paris, web design paris, stratégie web" src="img/citation.webp" />
-
-			</div>
+			<section class="col-xs-12 col-md-8 col-md-offset-2 text-center" style="color:black ; font-size: 21px;
+			 padding-left: 8%; ">
+				"L'agence La Panthère est une excellente agence web! Les web designers ont réussi à capturer 
+				l'essence de notre entreprise et à l'intégrer à notre site.
+				Cela nous a aidé à doubler nos ventes en logne à lyon."<br>
+				<span style="color: rgba(0, 0, 0, .5);">Maxime Guibard. PDG de A vos fourchettes</span>
+				
+			</section>
 		</div>
 	</div>
 </div>
@@ -151,9 +161,9 @@
 <div class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
 	<div class="container bloc-lg">
 		<div class="row">
-			<div class="col-sm-12 text-center">
-				<img alt="agence web, agence web paris, web design paris, stratégie web" src="img/title2.webp" />
-			</div>
+			<section class="col-sm-12 text-center" style="font-size: 21px;margin-bottom: 4%;">
+				Nous travaillons avec beaucoup de clients,<br>voici nos réalisations.
+			</section>
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
@@ -208,7 +218,7 @@
 				Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 			</h3>
 			<div class="col-sm-12 text-center">
-				<a href="page2.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
+				<a href="contact.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
 			</div>
 		</div>
 	</div>
@@ -227,26 +237,29 @@
 					<div class="col-sm-3">
 						<div class="text-center">
 
-							<a href="index.html" class="social" >
+							<a href="https://twitter.com/"  aria-label="twitter"  class="social" >
 							<span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a href="index.html"  class="social"><span class="fa fa-facebook icon-md"></span></a>
+							<a href="https://www.facebook.com/" aria-label="facebook" class="social" ><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a href="index.html"  class="social"><span class="fa fa-dribbble icon-md"></span></a>
+							<a href="https://dribbble.com/" aria-label="dribble"  class="social"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a href="index.html"  class="social"><span class="fa fa-instagram icon-md"></span></a>
+							<a href="https://www.instagram.com/" aria-label="instgram"  class="social" ><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
-					<div class="keywords" style="color:#F3976C;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
+
+					<!--
+					<div class="keywords" style="color:#F3976C;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div> -->
+					
 				</div>
 				<div class="row">
 					<div class="col-sm-4">
@@ -258,6 +271,8 @@
 								<li><a href="immobilierseo.com">immobilierseo.com</a></li>
 							</ul>		
 					</div>
+
+					<!--
 					<div class="col-sm-4">
 						Annuaires liste 1
 						<ul>
@@ -286,13 +301,13 @@
 							<li><a href="vraiseofiable.com">vraiseofiable.com</a></li>
 						</ul>
 					</div>
+					-->
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
 <!-- Footer - bloc-8 END -->
-
 <!-- Principal conteneur END -->
     
 </body>

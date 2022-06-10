@@ -1,6 +1,6 @@
 /*!
  * @fileOverview TouchSwipe - jQuery Plugin
- * @version 1.6.18
+ * @version jquery-3.6.0
  *
  * @author Matt Bryson http://www.github.com/mattbryson
  * @see https://github.com/mattbryson/TouchSwipe-Jquery-Plugin

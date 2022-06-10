@@ -133,6 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
+    
     color: rgba(255, 255, 255, .6);
 }
 
@@ -293,7 +294,7 @@ a:hover {
 }
 
 .navbar-brand {
-    height: auto;
+    
     padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
@@ -305,10 +306,12 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    
 }
 
 .navbar-brand img[src$=svg] {
     min-width: 100px;
+    
 }
 
 .nav-center .navbar-brand img {
@@ -326,6 +329,7 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    margin-right: 32px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -366,7 +370,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        right: 100px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -651,7 +655,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important
 }
 
 .container {
@@ -736,7 +740,8 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    /*color: #FFFFFF!important;*/
+    font-size: 16px;
 }
 
 .portfolio-thumb {
@@ -771,7 +776,9 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
+    
     background-color: #F3976C;
+    
 }
 
 .tc-white {
@@ -819,11 +826,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 
@@ -967,7 +974,7 @@ h4 {
     }
     .navbar-brand img {
         max-height: 40px;
-        width: auto;
+        max-width: 70%;
     }
     .nav-invert .navbar-header {
         float: none;
@@ -1043,4 +1050,23 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+
+}
+
+
+@media (max-width: 767px) {
+
+    .col-sm-12 text-center img{
+
+    max-width:  90%
+}
+}
+
+
+
+@media (max-width: 767px) {
+   .col-sm-6 img  {
+    width: 100%;
+    height: 340px;
+   }
 }
